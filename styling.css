@@ -364,7 +364,7 @@ header button{
   font-weight: 700;
 }
 
-/* Footer */
+
 footer {
   background: #2f7a44;
   color: #fff;
@@ -384,4 +384,70 @@ footer {
 .footer_links a:hover {
   color: #ffffff;
   text-decoration: underline;
+}
+
+
+@media(max-width: 780px) {
+
+
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.6rem; }
+  p  { font-size: 1rem; }
+
+
+  .Container {
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+  #Hero,
+  #Features,
+  #Visual,
+  #How_it_Words {
+    padding: 40px 15px;
+  }
+
+  .Rounded_Panel_Box {
+    padding: 20px;
+    margin: 0 10px;
+    max-width: 100%;
+  }
+
+
+  .features_grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+
+  .steps_grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+
+  .header_container {
+    padding: 0 20px;
+  }
+
+
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+ 
+  .modal_content {
+    width: 90%;
+    max-width: 300px;
+    padding: 20px;
+  }
 }
