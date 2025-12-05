@@ -451,3 +451,38 @@ footer {
     padding: 20px;
   }
 }
+
+@media (max-width: 768px) {
+
+
+  .features_grid,
+  .feature-grid,
+  .steps_grid,
+  .steps-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+
+
+  .feature-card,
+  .step-card {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+
+  #Features,
+  #How_it_Words {
+    padding: 20px !important;
+  }
+
+
+  .Rounded_Panel_Box {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 20px !important;
+  }
+}
+
